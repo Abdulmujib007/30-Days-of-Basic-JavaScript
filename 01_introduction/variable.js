@@ -1,6 +1,6 @@
-let myName = "mj",
-when = true,
-me = undefined,
-you = null;
+let hisName = "mj",
+whens = true,
+mee = undefined,
+your = null;
 
 
