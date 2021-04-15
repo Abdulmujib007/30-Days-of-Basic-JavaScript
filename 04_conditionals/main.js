@@ -27,9 +27,10 @@ let number = parseInt(prompt("Enter a number"));
 if (number % 2 == 0) {
   console.log(number + " is an even number");
 } else if (number % 2 == 1) {
-  console.log(number + " is an odd number");
+  console.log(`${number} is an odd number`);
 }
-let numb = parseInt(prompt("enter score"));
+  //exercise 2
+let numb = prompt("enter score");
 if (numb == 0 || numb <= 49) {
   console.log("F");
 } else if (numb == 50 || numb <= 59) {
@@ -40,6 +41,8 @@ if (numb == 0 || numb <= 49) {
   console.log("B");
 } else if (numb == 80 || numb <= 100) {
   console.log("A");
+} else{
+  console.log("Try number between 0 and 100");
 }
 let season = prompt("enter month").toLowerCase();
 if (season == "september" || season == "november" || season == "october") {
@@ -61,7 +64,7 @@ const today = prompt("Enter day").toLowerCase();
 switch (today) {
   case "saturday":
   case "sunday":
-    console.log("Saturday is a weekend");
+    console.log("This  is a weekend");
     break;
   case "monday":
   case "tuesday":
