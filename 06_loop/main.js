@@ -106,6 +106,18 @@
 //        string+=random;
 //  }
 //  console.log(string);
+for(let i = 0; i < 101; i++){
+  if(Math.sqrt(i * i) %2  > 0 ){
+    console.log(i)
+  }
+}
+// let   number = "a1b2c3d4e5f6g7h8i9j10k11l12m13n14o15p16q17r18s19t20u21v21w22x23y24z0"
+//   let string ="";
+//   for(let i = 0;i < 6; i++){
+//      let random =number[Math.floor(Math.random() * number.length )];
+//         string+=random;
+//   }
+//   console.log(string);
 
 // exercise 2
 
