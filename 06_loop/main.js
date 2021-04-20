@@ -33,7 +33,19 @@
 // for(let i = 1; i <= 7;i++){
 //     sum+=num;
 //     console.log(sum);
+// }function massIndex(weight,height){
+//     let index = weight /(height * height)
+//     if(index < 18.5){
+//         return "Underweight"
+//     } else if( index >= 18.5 && index <= 24.9){
+//        return "Normalweight"
+//     } else if(index >= 25 &&  index <= 29.9){
+//         return "Overweight"
+//     } else{
+//         return "Obese"
+//     }
 // }
+// console.log(massIndex(30,1));
 
 // for(let i = 0; i <= 10; i++){
 //     console.log( `${i} * ${i} = ${i}`);
@@ -95,7 +107,10 @@
 // let arr = [];
 // for(let i = 0; i < 5; i++){
 //     let random = Math.floor(Math.random() * 100);
-//         arr.push(random);
+//         // arr.push(random);
+//         if(random !== arr[i] &&random !== arr[i]- 1 && random !== arr[i] - 2 && random !== arr[i] - 3 && random !== arr[i] - 4){
+//           arr.push(random);
+//         }
 // }
 //    console.log(arr);
 
@@ -106,11 +121,7 @@
 //        string+=random;
 //  }
 //  console.log(string);
-for(let i = 0; i < 101; i++){
-  if(Math.sqrt(i * i) %2  > 0 ){
-    console.log(i)
-  }
-}
+
 // let   number = "a1b2c3d4e5f6g7h8i9j10k11l12m13n14o15p16q17r18s19t20u21v21w22x23y24z0"
 //   let string ="";
 //   for(let i = 0;i < 6; i++){
