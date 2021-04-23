@@ -233,6 +233,7 @@ function sumOfArgs(){
 }
 console.log(sumOfArgs(1,2,3,4,5,10,5,20))
 
+
 function randomUserIp(){
       let sum = ""
       for(let i = 0; i <2; i++){
@@ -536,7 +537,6 @@ console.log(isPrime(21))
       let arrayOfdata = ["number","string","undefined","null","boolean"]
       let empt = []
       for(let i = 0; i < arrayOfdata.length;i++){
-        // let eachArray = 
       if(!array.every(value => typeof value === arrayOfdata[i])){
         empt.push(arrayOfdata[i]) 
       }       
@@ -548,12 +548,28 @@ console.log(isPrime(21))
   }
 }
   console.log(arrayDataTypes(techComp))
+  // Another method to check for type of data type
+  const  dataTypesOfArray = (array) => {
+    let arrayOfdata = [1,"string",undefined,null,true]
+    for(let i = 0; i < arrayOfdata.length; i++){
+        let count = 0;
+      for(let j = 0; j < array.length;j++){
+        if(typeof(arrayOfdata[i]) === typeof(array[j])){
+              count++
+        } 
+      }
+      if(count == array.length){
+        return "Array is containing same data type"
+      }
+    }
+    return "Array is containing different data type"
+   }
 
-
+   console.log(dataTypesOfArray([true,true,true,true,false,false,]))
 
   function randomNumber(){
     let sum = "("
-    emptyArray = [];
+    // emptyArray = [];
     for(let i = 0; sum.length < 15;i++){
       let random = Math.floor(Math.random() * 10)
       // console.log(random)
@@ -575,4 +591,4 @@ console.log(isPrime(21))
 
   
 
-  
+  console.log(typeof(1))

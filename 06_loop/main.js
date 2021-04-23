@@ -33,7 +33,7 @@
 // for(let i = 1; i <= 7;i++){
 //     sum+=num;
 //     console.log(sum);
-// 
+
 // for(let i = 0; i <= 10; i++){
 //     console.log( `${i} * ${i} = ${i}`);
 // }
@@ -79,8 +79,8 @@
 // let arr = [];
 // for(let i = 0; i < 5; i++){
 //     let random = Math.floor(Math.random() * 100);
-//         // arr.push(random);
-        let arr = [];
+//         arr.push(random);
+//         let arr = [];
 
 // for(let i = 0;   arr.length < 5; i++){
 //     let random = Math.floor(Math.random() * 100);
@@ -107,7 +107,7 @@
 //   }
 //   console.log(string);
 
-// exercise 2
+//   // exercise 2
 
 // let   number = "a1b2c3d4e5f6g7h8i9j10k11l12m13n14o15p16q17r18s19t20u21v21w22x23y24z0"
 //  let string ="";
@@ -132,7 +132,7 @@
 //      hash+=random
 //  }
 //  console.log(hash)
-//rgb
+
 //  let arr = "rgb(";
 //  let closeB = ")";
 //  let comma = ","
@@ -199,7 +199,7 @@
 // else{
 //    console.log("All this are without land")
 // }
-// // console.log(emptiest);
+// console.log(emptiest);
 // let arrEndWithIa = [];
 // for(let i = 0; i < countries.length; i++){
 //    if(countries[i].endsWith("ia") == true){
@@ -210,7 +210,7 @@
 //    console.log(arrEndWithIa)
 // } else{
 //    console.log("These are countries ends without ia");
-// // }
+// }
 //      let empty = []
 // for(let i = 0; i < countries.length;i++){
 //    empty.push(countries[i].length);
@@ -247,7 +247,7 @@
 
 //   }
 //   let maxLength = Math.max(...emptyArr)
-// //   console.log(maxLength)
+//   console.log(maxLength)
 
 //   for(let j = 0; j < webTechs.length;j++){
 //      if(maxLength == emptyArr[j] ){
@@ -319,10 +319,10 @@ const countries = [
    "MongoDB",
  ];
    
- const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
-let sortedCountries = countries.sort();
-let sortedMernStack = mernStack.sort();
-let sortedWebTechs = webTechs.sort();
+//  const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
+// let sortedCountries = countries.sort();
+// let sortedMernStack = mernStack.sort();
+// let sortedWebTechs = webTechs.sort();
 
 // let arrContainLand = [];
 //  for(let i = 0;i < countries.length;i++){
