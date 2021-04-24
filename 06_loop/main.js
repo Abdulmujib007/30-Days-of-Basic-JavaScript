@@ -291,6 +291,15 @@
 //  for(let item of fullStack){
 //     you.push(...item)
 //    }
+   // method 2
+  //  let arrayContainer1 = []
+  //  for(let i = 0; i < fullStack.length;i++ ){
+  //       for(let j = 0; j < fullStack[i].length;j++){
+  //         arrayContainer1.push(fullStack[i][j])
+  //       }
+  //     }
+  //     console.log(arrayContainer1.join("\n"))
+
 //    console.log(you)
 //    let emptyArr = [];
 //    for(let items of you){
