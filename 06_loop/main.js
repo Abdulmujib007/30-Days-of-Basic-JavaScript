@@ -283,28 +283,29 @@
 //    arr.unshift(fruits[i]);
 // }
 // console.log(arr);
-// const fullStack = [
-//    ['HTML', 'CSS', 'JS', 'React'],
-//    ['Node', 'Express', 'MongoDB']
-//  ]
-//  let you = [];
-//  for(let item of fullStack){
-//     you.push(...item)
-//    }
-   // method 2
-  //  let arrayContainer1 = []
-  //  for(let i = 0; i < fullStack.length;i++ ){
-  //       for(let j = 0; j < fullStack[i].length;j++){
-  //         arrayContainer1.push(fullStack[i][j])
-  //       }
-  //     }
-  //     console.log(arrayContainer1.join("\n"))
+const fullStack = [
+   ['HTML', 'CSS', 'JS', 'React'],
+   ['Node', 'Express', 'MongoDB']
+ ]
+ let you = [];
+ for(let item of fullStack){
+    you.push(...item)
+   }
+   console.log(you)
+   let emptyArr = [];
+   for(let items of you){
+      console.log(items)
+   }
+    //method 2
+   let arrayContainer1 = []
+   for(let i = 0; i < fullStack.length;i++ ){
+        for(let j = 0; j < fullStack[i].length;j++){
+          arrayContainer1.push(fullStack[i][j])
+        }
+      }
+      console.log(arrayContainer1.join("\n"))
 
-//    console.log(you)
-//    let emptyArr = [];
-//    for(let items of you){
-//       console.log(items)
-//    }
+   
 const countries = [
    'Albania',
    'Bolivia',
