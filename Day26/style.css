@@ -1,0 +1,77 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+*,** {
+    box-sizing: border-box;
+}
+.contain{
+    background-image: url("./images/globe-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+    background-color: #374c63cf;
+    background-blend-mode: multiply;
+    text-align: center;
+    padding-top: 0.5rem;
+    /* overflow: hidden; */
+}
+h1{
+    /* padding-top: 4rem; */
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+    height: 2rem;
+}
+.container3{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    /* text-align: center   ; */
+    border-radius: 1.5rem;
+    width: 20rem;
+    padding: 0.3rem;
+    outline: none;
+    border-color:lightblue ;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+button{
+    background-color: darkorchid;
+    color: white;
+}
+
+button.active{
+  background-color:purple;
+}
+.up{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* row-gap: 0.1rem; */
+    font-size: 10px;
+}
+.arrow{
+    /* display: flex; */
+    height: 100%;
+    height: 1.5rem;
+    width: 1.3rem;
+    transform: rotate(180deg);
+}
+.sort-country{
+    width: 3rem;
+    display:flex;
+    justify-content:center;
+}

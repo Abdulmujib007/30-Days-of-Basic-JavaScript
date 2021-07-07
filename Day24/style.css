@@ -1,0 +1,42 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+*,**{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("./images/galaxy.gif");
+    background-size: cover;
+    text-align: center;
+}
+h2{
+    color:white;
+}
+form{
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+.mass{
+    width: 80%;
+    /* height: 5rem; */
+    background-color: rgba(255,255,255,0.2);
+    margin: 1rem auto;
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5rem;
+    
+}
+.hide{
+    display: none;
+}
+   option{
+       text-transform: capitalize;
+   }

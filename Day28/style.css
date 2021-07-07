@@ -1,0 +1,92 @@
+ body,html{
+     padding: 0;
+     margin: 0;
+     user-select: none;
+ }
+ *,**{
+     box-sizing: border-box;
+ }
+ body{
+     text-align: center;
+ }
+
+ input{
+    width: 8rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border: 2px solid #f9e3df;
+    color: #9a989a;
+    font-size: 1rem
+
+ }
+ input:focus{
+     outline: none;
+ }
+ .container1{
+     display: flex;
+     justify-content: center;
+     column-gap: 0.4rem;
+ }
+ .first-button{
+     width: 8rem;
+     background-color: #e4c8c4;
+     color: white;
+     border-color: #e4c8c4;
+ }
+ p{
+     margin-bottom: 0;
+ }
+ .container2{
+     display: grid;
+     padding-top: 2rem;
+     width: 60%;
+     grid-row-gap: 1rem;
+     margin-left: 20%;
+     text-transform: uppercase;
+
+ }
+ .inner1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: center;
+    height: 4rem;
+    background-color: #e4c8c4;
+ }
+ .inner2{
+     width: 15rem;
+     height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+ }
+ .events{
+     display: flex;
+     align-items: center;
+     column-gap: 2rem;
+ }
+ .nation{
+     display: flex;
+     width:13rem;
+     align-items: center;
+     justify-content: center;
+ }
+.hide{
+    display: none;
+}
+.subtract:hover{
+  cursor: pointer;
+}
+.add:hover{
+    cursor: pointer;
+}
+.add,.subtract{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

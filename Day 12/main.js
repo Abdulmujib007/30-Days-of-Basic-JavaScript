@@ -32,54 +32,10 @@ console.log(
        return  frequently.sort((a,b) => b.count-a.count).splice(0,wordCount)
     }
     console.log(tenMostFrequentWords(`I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.` ))
+    const sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
+    const cleanText = (p) => p.replace(/[^\w ]/g, '')
+    console.log(cleanText(sentence))
+    console.log(tenMostFrequentWords(cleanText(sentence))[0])
 
-
-
-// array = [
-//     {
-//         names:"mujib",
-//         work:"codevillage",
-//         address:"naija",
-//         skills:"MERN"
-//     },
-//     {
-//         names:"Aisha",
-//         work:"programmer",
-//         address:"not sure buh ilorin though",
-//         skills:"Beginner"   
-//     },
-//     {
-//         names:"Jalasem",
-//         work:"codevillage CEO ",
-//         address:"Naija road ilorin kwara",
-//         skills:"fullstack programmer"
-//     },
-//     {
-//         names:"Muhammed",
-//         work:"cv",
-//         address:"along taiwo isale",
-//         skills:"CSS"
-//     },
-//     {
-//         names:"laja",
-//         work:"villager",
-//         address:"naija road",
-//         skills:"HTML"
-//     }
-// ]
-
-
-//     const villagers = x => {
-//       return   x.map(({names:villagersNames,work:companyName}) => {
-//           return {
-//               villagersNames,
-//               companyName
-//           }
-//       })}
-//     const realfunc = (arr,cb) => {
-//       let arrayNames = cb(arr)
-//       return arrayNames.map(({villagersNames:studentName})=> ({studentName}))
-//     }
-//     console.log(realfunc(array,villagers))
 
  
